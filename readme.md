@@ -2,7 +2,7 @@
 
 # Stencil Socket IO
 
-This project shows how socket io fails when being loaded in Stencil 1.
+This project shows how socket io works when being loaded in Stencil v1.0.1. It did NOT work in v1.0.0.
 
 
 ## Getting Started
@@ -11,17 +11,6 @@ This project shows how socket io fails when being loaded in Stencil 1.
 ```bash
 npm install
 npm start
-```
-
-And you'll get:
-
-```
-[ ERROR ]  Rollup: Plugin Error
-           Could not load
-           C:\workspace\stencil-socketio\stencil-socketio\node_modules\@stencil\core\dist\sys\src\empty.js (imported by
-           C:\workspace\stencil-socketio\stencil-socketio\node_modules\engine.io-client\lib\transports\websocket.js):
-           ENOENT: no such file or directory, open
-           'C:\workspace\stencil-socketio\stencil-socketio\node_modules\@stencil\core\dist\sys\src\empty.js'
 ```
 
 Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
